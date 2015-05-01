@@ -1,0 +1,70 @@
+Title:
+Electroweak physics at the LHC
+
+Authors:
+Jeffery Berryhill, Alexander Oh
+
+Abstract:
+The Large Hadron Collider (LHC) has completed in 2012 it's first running 
+phase and the experiments have collected data sets of pp collisions at centre-of-mass
+energies of 7 and 8 TeV with an integrated luminosity of about 5ifb and 20ifb, respectively.
+Analyses of these data sets have produced a rich set of results in the electroweak sector 
+of the standard model. This article reviews the status of electroweak measurements of 
+the ATLAS and CMS experiments at the LHC and discusses phenomenological developments 
+in the electroweak sector.
+
+
+Outline:
+
+1) Introduction
+- Motivation to study the electroweak sector
+- EWK physics at hadron colliders
+- LHC physics programme
+- EWK challenges for run-2 and beyond.
+
+2) Theory overview and recent developments
+- PDF and EWK observables (V+jets, phi*)
+- EWK NLO corrections
+- anomalous gauge couplings and effective field theory 
+- oblique corrections, constructed observables ( http://arxiv.org/pdf/1409.7605v2.pdf
+, http://arxiv.org/pdf/1502.02570v1.pdf)
+
+3) Inclusive boson production
+- Drell-Yan production
+  - low mass
+  - high mass
+- inclusive di-boson production
+  - ZZ leptonic (llll, llvv)
+  - WZ leptonic
+  - WW leptonic
+  - W+gam
+  - Z+gam  
+- inclusive tri-boson production
+  - W+gamgam
+  - Z+gamgam
+  - lvjj+gam
+
+4) Exclusive boson production
+- exclusive single boson production, vector-boson fusion
+  - Z+2jets 
+  - W+2jets
+-  exclusive di-boson production, vector-boson scattering
+   - gam gam -> WW
+   - WW same sign
+
+5) Electroweak (precision) tests of the standard model 
+- test of tri-boson vertex 
+  - charged (WW,WZ,Wgam)
+  - neutral (ZZ,Zgam)
+- test of tetra-boson vertex
+  - charged (Wgamgam)
+  - neutral (Zgamgam
+- Z AFB and sin th_w 
+- W mass (?)
+
+6) Summary
+
+
+
+
+

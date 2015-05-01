@@ -1,0 +1,169 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{Aad:2008zzm}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2008 {\em JINST\/} {\bf 3} S08003
+
+\bibitem{Abulencia:2005ix}
+Abulencia A {\em et~al.\/} (CDF Collaboration) 2007 {\em J.Phys.\/} {\bf G34}
+  2457--2544 (\textit{Preprint} \eprint{hep-ex/0508029})
+
+\bibitem{CMSdetector}
+Chatrchyan S {\em et~al.\/} (CMS) 2008 {\em JINST\/} {\bf 3} S08004
+
+\bibitem{Abazov:2005pn}
+Abazov V {\em et~al.\/} (D0 Collaboration) 2006 {\em Nucl.Instrum.Meth.\/} {\bf
+  A565} 463--537 (\textit{Preprint} \eprint{physics/0507191})
+
+\bibitem{Alves:2008zz}
+Alves A~Augusto J {\em et~al.\/} (LHCb Collaboration) 2008 {\em JINST\/} {\bf
+  3} S08005
+
+\bibitem{Aad:2013iua}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B725}
+  223--242 (\textit{Preprint} \eprint{1305.4192})
+
+\bibitem{Aad:2014qja}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em JHEP\/} {\bf 1406} 112
+  (\textit{Preprint} \eprint{1404.1212})
+
+\bibitem{Aad:2014xaa}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2014  (\textit{Preprint}
+  \eprint{1406.3660})
+
+\bibitem{Aad:2012wfa}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B720}
+  32--51 (\textit{Preprint} \eprint{1211.6899})
+
+\bibitem{Aad:2013izg}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Rev.\/} {\bf D87}
+  112003 (\textit{Preprint} \eprint{1302.1283})
+
+\bibitem{ATLAS:2012mec}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Rev.\/} {\bf D87}
+  112001 (\textit{Preprint} \eprint{1210.2979})
+
+\bibitem{ATLAS-CONF-2014-033}
+ 2014 {Measurement of the $W^+W^-$ production cross section in proton-proton
+  collisions at $\sqrt{s} =8$ TeV with the ATLAS detector} Tech. Rep.
+  ATLAS-CONF-2014-033 CERN Geneva
+
+\bibitem{Aaltonen:2014loa}
+Aaltonen T~A {\em et~al.\/} (CDF Collaboration) 2014 {\em Phys.Rev.\/} {\bf
+  D89} 072005 (\textit{Preprint} \eprint{1402.2239})
+
+\bibitem{Aaltonen:2013wcp}
+Aaltonen T {\em et~al.\/} (CDF Collaboration) 2013 {\em Phys.Rev.\/} {\bf D88}
+  072002 (\textit{Preprint} \eprint{1307.0770})
+
+\bibitem{Aaltonen:2013vwa}
+Aaltonen T~A {\em et~al.\/} (CDF Collaboration) 2014 {\em Phys.Rev.\/} {\bf
+  D89} 072003 (\textit{Preprint} \eprint{1311.0894})
+
+\bibitem{Aaltonen:2012bp}
+Aaltonen T {\em et~al.\/} (CDF Collaboration) 2012 {\em Phys.Rev.Lett.\/} {\bf
+  108} 151803 (\textit{Preprint} \eprint{1203.0275})
+
+\bibitem{Chatrchyan:2013tia}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1312}
+  030 (\textit{Preprint} \eprint{1310.7291})
+
+\bibitem{Chatrchyan:2013mza}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013  (\textit{Preprint}
+  \eprint{1312.6283})
+
+\bibitem{Chatrchyan:2012xt}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2012 {\em Phys.Rev.Lett.\/}
+  {\bf 109} 111806 (\textit{Preprint} \eprint{1206.2598})
+
+\bibitem{Chatrchyan:2013uja}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2014 {\em JHEP\/} {\bf 1402}
+  013 (\textit{Preprint} \eprint{1310.1138})
+
+\bibitem{Khachatryan:2014dia}
+Khachatryan V {\em et~al.\/} (CMS Collaboration) 2014  (\textit{Preprint}
+  \eprint{1406.0113})
+
+\bibitem{Chatrchyan:2012sga}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1301}
+  063 (\textit{Preprint} \eprint{1211.4890})
+
+\bibitem{Chatrchyan:2013oev}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em Phys.Lett.\/} {\bf
+  B721} 190--211 (\textit{Preprint} \eprint{1301.4698})
+
+\bibitem{Chatrchyan:2013yaa}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em Eur.Phys.J.\/} {\bf
+  C73} 2610 (\textit{Preprint} \eprint{1306.1126})
+
+\bibitem{Chatrchyan:2012bd}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em Eur.Phys.J.\/} {\bf
+  C73} 2283 (\textit{Preprint} \eprint{1210.7544})
+
+\bibitem{Chatrchyan:2014bza}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2014  (\textit{Preprint}
+  \eprint{1404.4619})
+
+\bibitem{Chatrchyan:2013fya}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2014 {\em Phys.Rev.\/} {\bf
+  D89} 092005 (\textit{Preprint} \eprint{1308.6832})
+
+\bibitem{Chatrchyan:2013nda}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1310}
+  164 (\textit{Preprint} \eprint{1309.1117})
+
+\bibitem{Chatrchyan:2013foa}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1307}
+  116 (\textit{Preprint} \eprint{1305.5596})
+
+\bibitem{Chatrchyan:2013jya}
+Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1310}
+  062 (\textit{Preprint} \eprint{1305.7389})
+
+\bibitem{CMS-PAS-SMP-13-015}
+ 2014 {Vector boson scattering in a final state with two jets and two same-sign
+  leptons} Tech. Rep. CMS-PAS-SMP-13-015 CERN Geneva
+
+\bibitem{Abazov:2013dsa}
+Abazov V~M {\em et~al.\/} (D0 Collaboration) 2014 {\em Phys.Rev.Lett.\/} {\bf
+  112} 151803 (\textit{Preprint} \eprint{1312.2895})
+
+\bibitem{Abazov:2013rja}
+Abazov V~M {\em et~al.\/} (D0 Collaboration) 2013 {\em Phys.Rev.\/} {\bf D88}
+  091102 (\textit{Preprint} \eprint{1309.2591})
+
+\bibitem{D0:2013jba}
+Abazov V~M {\em et~al.\/} (D0 Collaboration) 2014 {\em Phys.Rev.\/} {\bf D89}
+  012005 (\textit{Preprint} \eprint{1310.8628})
+
+\bibitem{Abazov:2012bv}
+Abazov V~M {\em et~al.\/} (D0 Collaboration) 2012 {\em Phys.Rev.Lett.\/} {\bf
+  108} 151804 (\textit{Preprint} \eprint{1203.0293})
+
+\bibitem{Aaltonen:2013iut}
+Aaltonen T~A {\em et~al.\/} (CDF Collaboration, D0 Collaboration) 2013 {\em
+  Phys.Rev.\/} {\bf D88} 052018 (\textit{Preprint} \eprint{1307.7627})
+
+\bibitem{Baak:2013fwa}
+Baak M, Blondel A, Bodek A, Caputo R, Corbett T {\em et~al.\/} 2013
+  (\textit{Preprint} \eprint{1310.6708})
+
+\bibitem{Bozzi:2011ww}
+Bozzi G, Rojo J and Vicini A 2011 {\em Phys.Rev.\/} {\bf D83} 113008
+  (\textit{Preprint} \eprint{1104.2056})
+
+\bibitem{Aad:2014zda}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2014  (\textit{Preprint}
+  \eprint{1405.6241})
+
+\bibitem{Aad:2014dta}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em JHEP\/} {\bf 1404} 031
+  (\textit{Preprint} \eprint{1401.7610})
+
+\end{thebibliography}

@@ -1,0 +1,131 @@
+\documentclass[12pt]{iopart}
+\newcommand{\gguide}{{\it Preparing graphics for IOP Publishing journals}}
+%Uncomment next line if AMS fonts required
+%\usepackage{iopams}  
+\begin{document}
+
+\title[Author guidelines for IOP Publishing journals in  \LaTeXe]{How to prepare and submit an article for 
+publication in an IOP Publishing journal using \LaTeXe}
+
+\author{Content \& Services Team}
+
+\address{IOP Publishing, Temple Circus, Temple Way, Bristol BS1 6HG, UK}
+\ead{submissions@iop.org}
+\vspace{10pt}
+\begin{indented}
+\item[]February 2014
+\end{indented}
+
+\begin{abstract}
+
+\end{abstract}
+
+% Uncomment for PACS numbers
+\pacs{00.00, 20.00, 42.10}
+%
+% Uncomment for keywords
+\vspace{2pc}
+\noindent{\it Keywords}: XXXXXX, YYYYYYYY, ZZZZZZZZZ
+%
+% Uncomment for Submitted to journal title message
+\submitto{\jpg}
+%
+% Uncomment if a separate title page is required
+\maketitle
+% 
+% For two-column output uncomment the next line and choose [10pt] rather than [12pt] in the \documentclass declaration
+%\ioptwocol
+%
+
+
+
+\section{Introduction: file preparation and submission}
+
+
+\begin{table}
+\caption{\label{jlab1}Journals to which this document applies, and macros for the abbreviated journal names in {\tt iopart.cls}. Macros for other journal titles are listed in appendix\,A.}
+\footnotesize
+\begin{tabular}{@{}llll}
+\br
+Short form of journal title&Macro name&Short form of journal title&Macro name\\
+\mr
+2D Mater.&\verb"\TDM"&Mater. Res. Express&\verb"\MRE"\\
+Biofabrication&\verb"\BF"&Meas. Sci. Technol.$^c$&\verb"\MST"\\
+Bioinspir. Biomim.&\verb"\BB"&Methods Appl. Fluoresc.&\verb"\MAF"\\
+Biomed. Mater.&\verb"\BMM"&Modelling Simul. Mater. Sci. Eng.&\verb"\MSMSE"\\
+Class. Quantum Grav.&\verb"\CQG"&Nucl. Fusion$^a$&\verb"\NF"\\
+Comput. Sci. Disc.&\verb"\CSD"&New J. Phys.&\verb"\NJP"\\
+Environ. Res. Lett.&\verb"\ERL"&Nonlinearity$^{a,b}$&\verb"\NL"\\
+Eur. J. Phys.$^a$&\verb"\EJP"&Nanotechnology&\verb"\NT"\\
+Inverse Problems$^{b,c}$&\verb"\IP"&Phys. Biol.$^c$&\verb"\PB"\\
+J. Breath Res.&\verb"\JBR"&Phys. Educ.$^a$&\verb"\PED"\\
+J. Geophys. Eng.$^a$&\verb"\JGE"&Physiol. Meas.$^{c,d,e}$&\verb"\PM"\\
+J. Micromech. Microeng.&\verb"\JMM"&Phys. Med. Biol.$^{c,d,e}$&\verb"\PMB"\\
+J. Neural Eng.$^c$&\verb"\JNE"&Plasma Phys. Control. Fusion&\verb"\PPCF"\\
+J. Opt.&\verb"\JOPT"&Phys. Scr.&\verb"\PS"\\
+J. Phys. A: Math. Theor.&\verb"\jpa"&Plasma Sources Sci. Technol.&\verb"\PSST"\\
+J. Phys. B: At. Mol. Opt. Phys.$^a$&\verb"\jpb"&Rep. Prog. Phys.$^{e}$&\verb"\RPP"\\
+J. Phys: Condens. Matter&\verb"\JPCM"&Semicond. Sci. Technol.&\verb"\SST"\\
+J. Phys. D: Appl. Phys.$^a$&\verb"\JPD"&Smart Mater. Struct.&\verb"\SMS"\\
+J. Phys. G: Nucl. Part. Phys.&\verb"\jpg"&Supercond. Sci. Technol.&\verb"\SUST"\\
+J. Radiol. Prot.$^a$&\verb"\JRP"&Surf. Topogr.: Metrol. Prop.&\verb"\STMP"\\
+Metrologia$^a$&\verb"\MET"&Transl. Mater. Res.&\verb"\TMR"\\
+\br
+\end{tabular}\\
+$^{a}$UK spelling is required; $^{b}$MSC classification may be used as well as PACS; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+
+\end{table}
+\normalsize
+
+
+\subsection{What you will need to supply}
+Submissions to our journals are handled via the ScholarOne web-based submission system.  When you submit
+a new article to us you need only submit a PDF of your article.  When you submit a revised version,
+we ask you to submit the source files as well.  Upon acceptance for publication we will use the source files to produce a proof of your article in the journal style. 
+
+\subsubsection{Text.}When you send us the source files for a revised version of your submission,
+you should send us the \LaTeX\ source code of your paper with all figures read in by 
+the source code (see section \ref{figinc}).
+\begin{itemize}
+\item {\bf Using \LaTeX\ packages.} Most \LaTeXe\ packages can be used if they are 
+available in common distributions of \LaTeXe; however, if it is essential to use 
+a non-standard package then any extra files needed to process the article must 
+also be supplied.  Try to avoid using any packages that manipulate or change the standard
+\LaTeX\ fonts: published articles use fonts in the Times family, but we prefer that you 
+use \LaTeX\ default Computer Modern fonts in your submission.  The use of \LaTeX\ 2.09, and of plain
+\TeX\ and variants such as AMSTeX is acceptable, but a complete PDF of your submission should be supplied in these cases.
+\end{itemize}
+\subsubsection{Figures.} Figures should ideally be included in an article as encapsulated PostScript files
+(see section \ref{figinc}) or created using standard \LaTeX\ drawing commands. 
+ Please name all figure files using the guidelines in section \ref{fname}.
+We accept submissions that use pdf\TeX\ to include
+PDF or bitmap figures, but please ensure that you send us a PDF that uses PDF version 1.4 or lower
+(to avoid problems in the ScholarOne system).
+You can do this by putting \verb"\pdfminorversion=4" at the very start of your TeX file.
+
+\label{fig1}All figures should be included within the body of the text 
+at an appropriate point or grouped together with their captions at the end of the article. A standard graphics inclusion package such as \verb"graphicx" should be used for figure inclusion, and the package should be declared in the usual
+way, for example with \verb"\usepackage{graphicx}", after the \verb"\documentclass" command.
+Authors should avoid using special effects generated by including verbatim
+PostScript code in the submitted \LaTeX\ file. Wherever possible, please try to use standard \LaTeX\ tools 
+and packages.
+
+\subsubsection{References.\label{bibby}}
+You can produce your bibliography in the standard \LaTeX\ way using the \verb"\bibitem" command. Alternatively
+you can use BibTeX: our preferred  \verb".bst" styles are: 
+
+\subsection{Acknowledgments}
+Authors wishing to acknowledge assistance or encouragement from 
+colleagues, special work by technical staff or financial support from 
+organizations should do so in an unnumbered `Acknowledgments' section 
+immediately following the last numbered section of the paper. In \verb"iopart.cls" the 
+command \verb"\ack" sets the acknowledgments heading as an unnumbered
+section.
+
+Please ensure that you include all of the sources of funding and the funding contract reference numbers that you are contractually obliged to acknowledge. We often receive requests to add such information very late in the production process, or even after the article is published, and we cannot always do this. Please collect all of the necessary information from your co-authors and sponsors as early as possible.  
+
+\subsection{Appendices}
+
+
+\end{document}
+
