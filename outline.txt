@@ -26,42 +26,85 @@ Outline:
 - PDF and EWK observables (V+jets, phi*)
 - EWK NLO corrections
 - anomalous gauge couplings and effective field theory 
-- oblique corrections, constructed observables ( http://arxiv.org/pdf/1409.7605v2.pdf
-, http://arxiv.org/pdf/1502.02570v1.pdf)
+- oblique corrections, constructed observables 
+	http://arxiv.org/pdf/1409.7605v2.pdf
+	http://arxiv.org/pdf/1502.02570v1.pdf
 
 3) Inclusive boson production
 - Drell-Yan production
   - low mass
+	ATLAS, JHEP 06 (2014) 112, http://arxiv.org/abs/1404.1212
+	CMS, Eur. Phys. J. C 75 (2015) 147, http://arxiv.org/abs/1412.1115
+	CMS, JHEP 12 (2013) 030, http://arxiv.org/abs/1310.7291
   - high mass
+	ATLAS, Phys. Lett. B 725 (2013) 223-242, http://arxiv.org/abs/1305.4192
+	CMS, Eur. Phys. J. C 75 (2015) 147, http://arxiv.org/abs/1412.1115
+	CMS, JHEP 12 (2013) 030, http://arxiv.org/abs/1310.7291
+  - Phi* (optional)
+	ATLAS,Phys. Lett. B 720 (2013) 32-51 , http://arxiv.org/abs/1211.6899
+
 - inclusive di-boson production
   - ZZ leptonic (llll, llvv)
+	ATLAS, JHEP03(2013)128, http://arxiv.org/abs/1211.6096
+	CMS (8TeV,llvv), Submitted to EPJC, http://arxiv.org/abs/1503.05467
+	CMS (8TeV,llll), Phys. Lett. B 740 (2015) 250, http://arxiv.org/abs/1406.0113
+	CMS (5ifb, 8TeV) Phys. Lett. B 721 (2013) 190, http://arxiv.org/abs/1301.4698
+	CMS (7TeV, llll), JHEP 01 (2013) 063, http://arxiv.org/abs/1211.4890
   - WZ leptonic
+ 	ATLAS, Eur. Phys. J. C (2012) 72:2173, http://arxiv.org/abs/1208.1390
   - WW leptonic
+	ATLAS, Phys. Rev. D 87, 112001 (2013), http://arxiv.org/abs/1210.2979
+	ATLAS (20ifb 8TeV), https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2014-033/ 
+	CMS (5ifb 7TeV), Eur. Phys. J. C 73 (2013) 2610, http://arxiv.org/abs/1306.1126
+	CMS (5ifb, 8TeV) Phys. Lett. B 721 (2013) 190, http://arxiv.org/abs/1301.4698
+  - WZ WW lvjj
+	CMS (7TeV), Eur. Phys. J. C 73 (2013) 2283, http://arxiv.org/abs/1210.7544
   - W+gam
+	ATLAS, Phys. Rev. D 87, 112003 (2013), http://arxiv.org/abs/1302.1283
+	CMS, Phys. Rev. D 89 (2014) 092005, http://arxiv.org/abs/1308.6832
   - Z+gam  
+	ATLAS, Phys. Rev. D 87, 112003 (2013), http://arxiv.org/abs/1302.1283
+	CMS, Phys. Rev. D 89 (2014) 092005, http://arxiv.org/abs/1308.6832
+	CMS (8TeV 20ifb), Submitted to JHEP, http://arxiv.org/abs/1502.05664
+	CMS vvgam 7TeV, JHEP 10 (2013) 164, http://arxiv.org/abs/1309.1117
+
 - inclusive tri-boson production
   - W+gamgam
+	ATLAS, Submitted on 11 Mar 2015, http://arxiv.org/abs/1503.03243
   - Z+gamgam
+  - WVgam
+	CMS, Phys. Rev. D 90, 032008 (2014), http://arxiv.org/abs/1404.4619
   - lvjj+gam
+	ATLAS, JHEP01(2015)049, http://arxiv.org/abs/1410.7238
 
 4) Exclusive boson production
 - exclusive single boson production, vector-boson fusion
   - Z+2jets 
+	ATLAS, JHEP04(2014)031, http://arxiv.org/abs/1401.7610
   - W+2jets
 -  exclusive di-boson production, vector-boson scattering
    - gam gam -> WW
    - WW same sign
+	ATLAS, Phys. Rev. Lett. 113, 141803 (2014), http://arxiv.org/abs/1405.6241
+	CMS, Phys. Rev. Lett. 114, 051801 (2015), http://arxiv.org/abs/1410.6315
+
 
 5) Electroweak (precision) tests of the standard model 
-- test of tri-boson vertex 
+- measurements of tri-boson couplings 
   - charged (WW,WZ,Wgam)
   - neutral (ZZ,Zgam)
-- test of tetra-boson vertex
+- measurements of quartic-boson couplings
   - charged (Wgamgam)
   - neutral (Zgamgam
-- Z AFB and sin th_w 
-- W mass (?)
 
+- Z AFB and sin th_w
+	ATLAS, Submitted on 12 Mar 2015, http://arxiv.org/abs/1503.03709 
+	CMS (AFB), Phys. Lett. B 718 (2013) 752, http://arxiv.org/abs/1207.3973
+	CMS (th_w), Phys. Rev. D 84, 112002 (2011), http://arxiv.org/abs/1110.2682
+- W mass (if available for summer conferences)
+
+- Z->4l (optional?)
+	ATLAS, Phys. Rev. Lett. 112, 231806 (2014), http://arxiv.org/abs/1403.5657
 6) Summary
 
 
