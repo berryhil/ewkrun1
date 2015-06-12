@@ -1,4 +1,6 @@
 \documentclass[12pt]{iopart}
+\pdfminorversion=4
+\usepackage{graphicx}
 %Uncomment next line if AMS fonts required
 %\usepackage{iopams}  
 \usepackage{myphysics} %units, particles and misc definitions from ATLAS 
@@ -63,23 +65,7 @@ sector.
 
 \section{Inclusive boson production}
 \subsection{Drell-Yan production}
-
-ATLAS high-mass Drell--Yan 7 TeV~\cite{Aad:2013iua} 
-
-ATLAS low-mass Drell-Yan 7 TeV~\cite{Aad:2014qja}
-
-ATLAS Z PT 7 TeV~\cite{Aad:2014xaa}
-
-ATLAS Z phistar 7 TeV~\cite{Aad:2012wfa}
-
-CMS Drell--Yan 7 TeV~\cite{Chatrchyan:2013tia}
-
-CMS Drell--Yan 8 TeV~\cite{CMS:2014jea}
-
-CMS angular coefficients 8 TeV~\cite{Khachatryan:2015paa}
-
-CMS Z PT and rapidity 8 TeV~\cite{Khachatryan:2015oaa}
-
+\include{drellyan}
 \subsection{Inclusive di-boson production}
 
 ATLAS Wgamma Zgamma 7 TeV~\cite{Aad:2013izg}
@@ -231,6 +217,9 @@ CDF+D0 W mass combination~\cite{Aaltonen:2013iut}
 Snowmass electroweak~\cite{Baak:2013fwa}
 
 Wmass PDF~\cite{Bozzi:2011ww}
+
+\ack
+Acknowledgments go here. 
 
 \bibliographystyle{iopart-num}
 \bibliography{ewkrun1_master}
