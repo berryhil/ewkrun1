@@ -26,6 +26,7 @@ $BR(ZZ) \to \ll\ll = 0.101^2 \cdot {4 \over 9} = 0.0045$~\cite{PDG}.
 The di-lepton and missing energy channel can exploit the one order of magnitude
 higher branching ratio of 
 $BR(\ZZ \to \ll\vv) = 0.101 \cdot 0.20 \cdot 2 \cdot {2 \over 3} = 0.0269$, 
+at the expense of high background levels.
 
 %analysis CMS and ATLAS.
 %ATLAS ZZ 7 TeV~\cite{Aad:2012awa}
@@ -45,6 +46,7 @@ Theoretical predictions for $\ZZ$ production are available
 at NLO in $\alpha_s$~\cite{arXiv:1105.0020}. In addition, electroweak 
 corrections at NLO have been calculated~\cite{arXiv:1305.5402,arXiv:1307.4331}. 
 
+% Z->llll
 %Selections
 The event selection for the $\ll\ll$ final state requires exactly four leptons 
 fulfilling a set of cuts on kinematic quantities. ATLAS and CMS use similar criteria 
@@ -52,13 +54,109 @@ as listed in detail in Table~\ref{tab:sss-ZZprod-cuts}. While ATLAS uses $l=e,\m
 CMS includes also $\Z\to\tautau$ with subsequent hadronic and leptonic $\tau$
 decays. ATLAS uses in addition forward leptons outside the ID tracker
 to increase the acceptance by 6\% for electrons and 10\% for muons.
-
 %Backgrounds
+The $\ll\ll$ channels offers the cleanest event sample with a background level
+of only $2-3\%$ from $\Z+jets$, $\tt$, and di-boson events. 
+The background is estimated from data by control regions with looser selection
+criteria. 
+
+% Z->llvv
+%Selections
+Events in the $\ll\vv$ final state are characterized by exactly two leptons 
+and missing energy. The event selection requires a leptonic $\Z$ candidate and
+missing energy in the event. Both experiments used refined observables of
+missing energy with additional information to improve the rejection 
+against instrumental background. 
+%Backgrounds 
+The background level is in the same order
+as the signal and substantially higher then for $\ll\ll$ .
+Main background sources are $\V+jets$, $\tt$ and di-boson production. 
+ATLAS and CMS use data driven techniques to constrain the 
+dominant background sources.
 
 % Results at the end?
+% xsec
 Besides the total cross section for the $pp \to \ZZ$ production process, both
-experiments measure also fiducial and differential cross sections, and provide
-limits on anomalous neutral triple gauge boson couplings.
+experiments measure also fiducial and differential cross sections. The results are 
+summarized in Tabel~\ref{tab:sss-ZZprod-cross-sections}. ATLAS and CMS
+use different definitions of the fiducial phase space which needs to be taken into
+account to make a direct comparison is possible.
+For the total cross section a slightly different mass range for the $\Z$ mass range is
+used, where CMS uses a wider range of $60\GeV < \mZ < 120\GeV$ then ATLAS with 
+$76\GeV < \mZ < 116\GeV$, which contributes to the difference in the quoted predicted
+cross section. Agreement of experimental and theoretical cross section 
+values is observed. 
+
+
+\begin{table}[htdp]
+\caption{default}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ Experiment & decay channel     & \rts & measured $\sigma_{total}$ $[\pb]$                                  & predicted $\sigma_{total}$ $[\pb]$& reference                    \\
+ \hline
+ ATLAS	     & $\ll\ll$, $\ll\vv$& 7 TeV & {6.7 $\pm$ 0.7 (stat.) $^{+0.4}_{-0.3}$ (syst.) $\pm$ 0.3 (lumi.) }&  6.18$^{+0.25}_{-0.18}$           & \cite{Aad:2012awa}         \\
+ CMS	     & $\ll\ll$          & 7 TeV & {6.2 $\pm$ $^{+0.9}_{-0.8}$ (stat.) $^{+0.4}_{-0.3}$ (syst.) $\pm$ 0.1 (lumi.) } & 6.3$\pm 0.4$        & \cite{Chatrchyan:2012sga}  \\
+ CMS	     & $\ll\vv$          & 7 TeV & {5.2 $\pm$ $^{+1.5}_{-1.4}$ (stat.) $^{+1.4}_{-1.1}$ (syst.) $\pm$ 0.2 (lumi.) } & 6.1$\pm 0.3$        & \cite{Chatrchyan:2012sga}  \\
+ CMS	     & $\ll\ll$          & 8 TeV & {7.7 $\pm$ 0.5 (stat.) $^{+0.5}_{-0.4}$ (syst.) $\pm$ 0.2 (lumi.) } 		        & 7.7$\pm 0.6$        & \cite{CMS:2014xja}         \\ 
+ CMS	     & $\ll\vv$          & 8 TeV & {6.9 $\pm$ 0.8 (stat.) $^{+1.8}_{-1.4}$ (syst.) $\pm$ 0.3 (lumi.) }			    & 7.6$\pm 0.3$        & \cite{Chatrchyan:2012sga}  \\% m(ll) > 40GeV, m(vv) > 12GeV
+\hline
+
+\end{tabular}
+\caption{Summary of measured $\ZZ$ production cross sections from ATLAS and CMS
+at 7 and 8 TeV centre-of-mass energies in the four lepton and $\ll\vv$ final state.}
+\label{tab:sss-ZZprod-cross-sections}
+\end{center}
+\label{default}
+\end{table}%
+
+
+
+% aTGC
+% Spectra ATGC
+% charged pT : llvv CMS
+% m(llll) : llll CMS
+% pT(Z) : llll,llvv ATLAS
+Limits on ATGC parameters are determined with differential distributions of the 
+invariant di-boson mass (CMS, four lepton channel), 
+the transverse momentum of the leading lepton (CMS, $\ll\vv$-channel), or
+the transverse momentum of the leading \Z (ATLAS, all channels).
+A comparison of the measured and predicted differential cross sections in the 
+four-lepton invariant mass is shown from CMS in Figure \ref{fig:sss-inclboson-diboson-zzprod-zzinvmass}.
+Also shown is the prediction in the presence of a non-zero value of the anomalous coupling
+parameter $f_4^Z=0.015$, which shows an enhancement over the SM value at high 
+invariant masses. 
+
+%FIGURE ZZ invariant mass
+%1406.0113v2.pdf, FIGURE 5
+% https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsSMP13005/fig5tgcA.pdf
+% CMS ZZ 4l 8 TeV
+\begin{figure}[htbp]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{figures/sss-inclboson-diboson-zzprod-zzinvmass.pdf}
+  \caption{ Distribution of the four-lepton reconstructed mass for the combined $4e$, $4\mu$, and $2e2\mu$ channels from CMS~\cite{Khachatryan:2014dia}. Points represent the data, the shaded histogram labeled $\ZZ$ represents the predictions for $\ZZ$ signal, the histograms labeled $\WZ$/$\Z$+jets shows background estimated form data. The dashed and dotted histograms indicate the SM expectation (f4Z = 0) and in the presence of an ATGC (f4Z = 0.015) with all the other anomalous couplings set to zero. The last bin includes all entries with masses above 1000 GeV.
+}
+\label{fig:sss-inclboson-diboson-zzprod-zzinvmass}
+\end{center}
+\end{figure}
+
+Both experiment publish 95\% CL limits on aTGC without form factors in the $\ll\ll$ 
+and $\ll\vv$ channels. The results are summarized in Figure~\ref{}.
+% FIGURE COMPARISON OF ZZ NTGC
+% https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsSMPaTGC
+% M Herndon
+% FETCHED 34RD JULY 2015
+\begin{figure}[htbp]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{figures/sss-inclboson-diboson-zzprod-aTGC_naTGCf.pdf}
+  \caption{ Comparison of the limits on \ffourv and \ffivev from ATLAS and CMS in the $\ll\ll$ and $\ll\vv$
+  channel at 7 and $8\TeV$.}
+\label{fig:sss-inclboson-diboson-zzprod-aTGC_naTGCf}
+\end{center}
+\end{figure}
+
+
+
 
 
 
