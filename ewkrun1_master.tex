@@ -1,9 +1,8 @@
 \documentclass[12pt]{iopart}
 \pdfminorversion=4
-\usepackage{graphicx}
 %Uncomment next line if AMS fonts required
-%\usepackage{iopams}  
-\usepackage{myphysics} %units, particles and misc definitions from ATLAS 
+%\usepackage{iopams}
+\usepackage{myphysics} %units, particles and misc definitions from ATLAS
 \usepackage{graphicx}  %\includegraphics...
 
 \begin{document}
@@ -44,7 +43,7 @@ sector.
 %
 % Uncomment if a separate title page is required
 \maketitle
-% 
+%
 % For two-column output uncomment the next line and choose [10pt] rather than [12pt] in the \documentclass declaration
 %\ioptwocol
 %
@@ -123,20 +122,10 @@ CMS WVgamma 8 \TeV~\cite{Chatrchyan:2014bza}
 
 \section{Exclusive boson production}
 \subsection{Exclusive single boson production, vector-boson fusion}
-
-ATLAS VBF Z 7 \TeV~\cite{Aad:2014dta}
-
-CMS VBF Z 7 \TeV~\cite{Chatrchyan:2013jya}
-
-CMS VBF Z 8 \TeV~\cite{Khachatryan:2014dea}
+\include{ss-exclboson-z2j}
 
 \subsection{Exclusive di-boson production, vector-boson scattering}
-
-ATLAS SSWW 8 \TeV~\cite{Aad:2014zda}
-
-CMS WWexcl 7 \TeV~\cite{Chatrchyan:2013foa}
-
-CMS SSWW 8 \TeV~\cite{Khachatryan:2014sta}
+\include{ss-exclboson-ww}
 
 \section{Electroweak (precision) tests of the standard model}
 \subsection{Test of tri-boson vertex}
@@ -219,10 +208,9 @@ Snowmass electroweak~\cite{Baak:2013fwa}
 Wmass PDF~\cite{Bozzi:2011ww}
 
 \ack
-Acknowledgments go here. 
+Acknowledgments go here.
 
 \bibliographystyle{iopart-num}
 \bibliography{ewkrun1_master}
 
 \end{document}
-
