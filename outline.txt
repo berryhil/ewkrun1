@@ -26,45 +26,47 @@ Outline:
 - PDF and EWK observables (V+jets, phi*)
 - EWK NLO corrections
 - anomalous gauge couplings and effective field theory 
-- oblique corrections, constructed observables ( http://arxiv.org/pdf/1409.7605v2.pdf
-, http://arxiv.org/pdf/1502.02570v1.pdf)
+- oblique corrections, constructed observables ( http://arxiv.org/pdf/1409.7605v2.pdf, http://arxiv.org/pdf/1502.02570v1.pdf)
 
 3) Inclusive boson production
-- Drell-Yan production
-  - low mass
-  - high mass
+- Drell-Yan production 
+  (- low mass JB)
+  - high mass JB
 - inclusive di-boson production
-  - ZZ leptonic (llll, llvv)
-  - WZ leptonic
-  - WW leptonic
-  - W+gam
-  - Z+gam  
+  - ZZ leptonic (llll, llvv) AO 
+  - WZ leptonic AO
+  - WW leptonic AO
+  - W+gam AO
+  - Z+gam AO 
 - inclusive tri-boson production
-  - W+gamgam
-  - Z+gamgam
-  - lvjj+gam
+  - W+gamgam JB
+  - Z+gamgam JB
+  - lvjj+gam JB
 
 4) Exclusive boson production
 - exclusive single boson production, vector-boson fusion
-  - Z+2jets 
-  - W+2jets
+  - Z+2jets JB
+  - W+2jets JB
 -  exclusive di-boson production, vector-boson scattering
-   - gam gam -> WW
-   - WW same sign
+   - gam gam -> WW JB
+   - WW same sign  JB
 
 5) Electroweak (precision) tests of the standard model 
 - test of tri-boson vertex 
-  - charged (WW,WZ,Wgam)
-  - neutral (ZZ,Zgam)
+  - charged (WW,WZ,Wgam) AO
+  - neutral (ZZ,Zgam) AO
 - test of tetra-boson vertex
-  - charged (Wgamgam)
-  - neutral (Zgamgam
-- Z AFB and sin th_w 
-- W mass (?)
+  - charged (Wgamgam) JB
+  - neutral (Zgamgam) JB
+- Z AFB and sin th_w  JB
+- W mass (?)          JB
 
 6) Summary
 
 
+
+—> Deadline for 3-5 11th September
+—> Circulation November 2015
 
 
 
