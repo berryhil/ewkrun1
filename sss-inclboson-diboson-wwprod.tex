@@ -45,26 +45,78 @@ scale in the range of 1-2\%.
 
 % Results at the end
 % total xsec
-% CMS 7TeV: s(ww) = 52.4 +- 2.0 (stat) +- 4.5 (syst) +- 1.2 (lum) pb
-% ATLAS 7TeV:
-% CMS 8TeV:
-Both ATLAS and CMS provide a measurement of the total cross section for the process $pp \rightarrow \WW$.
-ATLAS 
+% ATLAS 7TeV 4.6 ifb: xsec(WW) = 51.9 +- 2.0 (stat) +- 3.9 (sys) +- 2.0 (lum) pb
+%                     xsec_theo(WW) = 44.7 +2.1 -1.9 pb
+% CMS 7TeV 4.9 ifb: xsec(ww) = 52.4 +- 2.0 (stat) +- 4.5 (syst) +- 1.2 (lum) pb
+%                   xsec_theo(WW) = 47.0 +- 2.0 pb
+% CMS 8TeV 5ifb: xsec(WW) = 69.9 +- 2.8 (stat) +- 5.6 (sys) +- 3.1 (lum) pb
+%                xsec_theo(WW) = 57.3 +2.3 -1.6 pb (not including H ~ 4%)
 
+% definition of total xsecs might differ (inclusion of higgs or not).
+Both ATLAS and CMS provide a measurement of the total cross section for the process $pp \rightarrow \WW$
+and compare to theoretical calculations. The Higgs process contributes with about 4\% to the total 
+cross section and has not been taken into account in the comparison to the SM predictions.
+The total cross section results are summarised in Table~\ref{tab:sss-WWprod-xsec}.
+A good agreement of the experiments for the measured cross section as well as for the theoretical predictions
+is observed.
 % fiducial xsec
+A normalised differential measurement of the fiducial cross section in bins of $\pt$ of the leading lepton is presented by ATLAS,
+as shown in Figure~\ref{fig:sss-WWprod-pt-fiducial}. The unfolded spectrum is in agreement with the SM prediction. The 
 
-The fiducial cross section 
+
+\ref{tab:sss-WWprod-xsec}.
+\begin{table}[htdp]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|}
+Experiment & cross section & \rts & measured  & predicted  & reference  \\ \hline
+ATLAS & total & 7 GeV & {51.9 $\pm 2.0$  (stat.) ${3.9}$ (syst.) $\pm$ 2.0 (lumi.) pb}  & {44.7 $^{+2.1}_{-1.9}$ pb} & \cite{ATLAS:2012mec} \\
+CMS & total & 7 GeV & {52.4 $\pm 2.0$  (stat.) ${4.5}$ (syst.) $\pm$ 1.2 (lumi.) pb}  & {47.0 $\pm 2.0$ pb} & \cite{Chatrchyan:2013yaa} \\
+CMS & total & 8 GeV & {69.9 $\pm 2.8$  (stat.) ${5.6}$ (syst.) $\pm$ 3.1 (lumi.) pb}  & {57.3 $^{+2.3}_{-1.6}$ pb} & \cite{Chatrchyan:2013yaa} \\
+\end{tabular}
+}
+\caption{Summary of measured fiducial and total $\WW$ production cross sections from ATLAS and CMS 
+at 7 and 8 TeV centre-of-mass energies in the $\lnu\lnu$ final state.}
+\end{center}
+\label{tab:sss-WWprod-xsec}
+\end{table}%
 
 % unfolded spectra
+% https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/STDM-2012-01/fig_07.pdf
+% 
+\begin{figure}[htbp]
+  \begin{center}
+  \includegraphics[width=0.45\textwidth]{figures/sss-inclboson-diboson-wwprod-pt-fiducial.pdf}
+  \caption{ATLAS measurement of the transverse momentum of the leading lepton in \WW events compared with the SM prediction at $\rts = 7\TeV$. The full uncertainty contains statistical and systematic uncertainties.}
+\label{fig:sss-WZprod-ptZ}
+\end{center}
+\end{figure}
 
 
 %%%%
 % THIS MIGHT GO INTO THE SECTION ON TGC
 % aTGC
+The leading lepton $\pt$ spectrum of the \WW process is sensitive to anomalous gauge boson coupling parameters
+\dkg,  \dkz, \lg, \lz, and \dgz. Both ATLAS and CMS quote limits in the LEP 
+parametrization~\cite{Gounaris:1996rz} that introduces $SU(2) \times U(1)$ gauge invariance 
+constraints to reduce the number of free parameters to \dgz,  \dkg, and \lz. The obtained limits assuming 
+no form-factor are compared for both expected and measured 95\% CL limits in Table~\ref{tab:sss-WZprod-tgc}.
 
-
-
-
+\begin{table}\centering
+\caption{Expected and observed 95\% CL limits on the ATGC parameters 
+\dkg, \lz\ and \dgz\; in the LEP parametrization derived from the leading lepton $\pt$ spectrum in \WW production at 7 TeV (ATLAS~\cite{ATLAS:2012mec},CMS~\cite{Chatrchyan:2013yaa}). No form-factor is applied to the ATGC parameters.}
+\label{tab:sss-WZprod-ATGC}
+\begin{tabular}{cccc}
+\hline
+& Observed (CMS) & Observed (ATLAS) & Expected (ATLAS)\\
+\hline
+$\dgz$ & $[-0.095, 0.095]$ & $[-0.039, 0.052]$ & $[-0.039, 0.052]$ \\
+$\dkg$ & $[-0.21, 0.22]$ & $[-0.14, 0.14 ]$ & $[-0.13, 0.13]$ \\
+% ATLAS DKZ limits converted to DKG with DKG = c2/s2(DG1-DKZ) = 3.3252 * (-DKZ) [DG1 == 0]
+$\lz$ & $[-0.048, 0.048]$ & $[-0.062, 0.059]$ & $[-0.060, 0.059]$ \\
+\hline
+\end{tabular}
+\end{table}
 
 
 
