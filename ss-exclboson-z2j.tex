@@ -1,3 +1,16 @@
+By analysis of more exclusive selection of single or multiple electroweak boson production,
+it is possible with the LHC Run 1 data to isolate purely electroweak amplitudes of
+increased complexity and complementary sensitivity to new physics.  The first demonstration of
+this was the observation of an electroweak amplitude in Z+2 jet production by both the
+ATLAS and CMS experiments~\cite{Aad:2014dta, Khachatryan:2014dea}.
+
+Figure~\ref{fig:ss-exclboson-z2j-sigdiagram} shows the leading order diagrams for Z+2 jet production
+from purely electroweak contributions.  It includes a vector boson fusion component similar to
+VBF Higgs production, as well as electroweak bremsstrahlung amplitiudes.  The different amplitudes
+are strongly interfering and cannot be practically isolated from one another via kinematic selection.
+In general, Z+2 jet production is dominated by simpler Drell-Yan production accompanied by QCD bremsstrahlung,
+but in certain exclusive regions of the dijet phase space the electroweak amplitudes are dominant.
+
 \begin{figure*}[htb] {
 \centering
 \includegraphics[width=0.315\textwidth]{figures/ss-exclboson-z2j-vbfz_diagram.pdf}
@@ -15,20 +28,63 @@ and (right) multiperipheral production.
 \end{figure*}
 
 
+The LHC experiments have used several criteria to isolate the electroweak amplitudes.  The ATLAS analysis
+defines a search region with
+\begin{itemize}
+    \item minimum $\pt$ of the jets (45-55 GeV) and the Z boson candidate (20 GeV)
+    \item minimum invariant mass of the dijet system (250 GeV)
+    \item a veto on events with an additional jet in the rapidity gap between the leading two jets
+    \item an upper limit (0.15) on the relative imbalance in the momenta of the four-body dilepton and dijet system, where
+    imbalance is defined as the magnitude of the four-body $\pt$ vector sum relative to the four-body scalar sum of transverse momenta.
+  \end{itemize}
+
+CMS selects events with minimum $\pt$ of the jets (30-50 GeV), minimum invariant mass of the dijet system (200 GeV), a maximum
+magnitude of the difference between the Z rapidity and the avarage jet rapidity (1.2), and an upper
+limit (0.14) on the relative imbalance of the three-body Z and dijet system.
+Additionally a multivariate discriminant is constructed which includes:
+\begin{itemize}
+  \item the dijet invariant mass
+  \item the sum of the magnitudes of the jet rapidities
+  \item the Z boson rapidity
+  \item the Z boson $\pt$
+  \item ratio of the difference between the Z rapidity and the avarage jet rapidity to the dijet rapidity difference
+  \item a quark/gluon multivariate discriminant evaluated for the leading two jets
+\end{itemize}
+
+The ATLAS analysis extracts an electroweak signal from selected events via a maximum likelihood fit
+of electroweak Z+2 jet signal and background yields to the dijet invariant mass distribution.
+The signal template is obtained from \texttt{Sherpa} Z+2 jet simulation and the background template also from \texttt{Sherpa},
+except its shape is reweighted to obtain agreement with a separate control sample in the data.
+The result of the fit is shown in Figure~\ref{fig:ss-exclboson-z2j-8tev}.  An excess of data over background begins to be seen
+near 1000 GeV in dijet mass, increasing in significance for higher dijet masses, totalling close to 1700 events with a statistical
+significance greater than 5$\sigma$.   A high-purity fiducial cross section region is defined for events in the search
+region above 1000 GeV in dijet mass, where the signal yield is obtained from integrating the signal component of the likelihood fit.
+The resulting electroweak cross section is
+
+$$\sigma_{EW} (m_{jj} > 1 \TeV) = 10.7 \pm 0.9 \rm{(stat)} \pm 1.9 \rm{(syst)} \pm 0.3 \rm{(lumi)} \rm{\,fb}$$,
+
+in agreement with the \texttt{Powheg} prediction of $9.4\pm0.3 \rm{\,fb}$.  The systematic uncertainty is predominantly from
+control sample statistics for background reweighting, the simulation modelling of signal and background,
+and estimates of the effect of neglecting signal-background interference.
+
 \begin{figure}[p]
     \centering
     \includegraphics[width=0.45\textwidth]{figures/ss-exclboson-z2j-atlas8tev.pdf}
     \includegraphics[width=0.45\textwidth]{figures/ss-exclboson-z2j-cms8tev.pdf}
     \caption{Evidence of observation of an electroweak amplitude in Z+2 jet production.
     Left:  The invariant mass distribution of dijets in Z+2 jet events selected
-     from a signal region by ATLAS. 
+     from a signal region by ATLAS.
     Right:  The BDT distribution of Z+2 jet events selected from a signal region
     by CMS in the dimuon channel.}
     \label{fig:ss-exclboson-z2j-8tev}
 \end{figure}
-ATLAS VBF Z 7 \TeV~\cite{Aad:2014dta}
 
-CMS VBF Z 7 \TeV~\cite{Chatrchyan:2013jya}
+Similarly, CMS extracts an electroweak signal via a likelihood fit to the kinematic multivariate discriminant.  The signal and background
+templates are obtained from \texttt{MadGraph}, and an interference term is introduced proportional to the square root of the signal strength.
+The background shape is not reweighted but comparisons between data and simulation control samples bound shape uncertainties.  A signal significance
+greater then 5$\sigma$ is observed, corresponding to a signal yield close to 1600 events, as shown in Figure.~\ref{fig:ss-exclboson-z2j-8tev}.
+For a fiducial cross section corresponding to all selected events, they obtain
 
-CMS VBF Z 8 \TeV~\cite{Khachatryan:2014dea}
-Figure~\ref{fig:ss-exclboson-z2j-8tev}
+$$\sigma_{EW} = 174 \pm 15 \rm{(stat)} \pm 40 \rm{(syst)} \rm{\,fb}$$,
+
+in agreement with the \texttt{MadGraph} prediction of $208 \pm 18 \rm{\,fb}$.  Systematic uncertainties types and sizes are similar to that of ATLAS.
