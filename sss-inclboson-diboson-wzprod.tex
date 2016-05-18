@@ -29,12 +29,13 @@ anomalous TGC of gauge bosons.
 
 
 %analysis CMS and ATLAS.
+%ATLAS WZ 8 TEV \cite{Aad:2016ett} 
 %ATLAS WZ 7 \TeV~\cite{Aad:2012twa}
 % - figure from https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/STDM-2012-09/
 %CMS WZ at 7+8 \TeV (CMS-PAS-SMP-12-006, to be published)
 The ATLAS experiment measured the \WZ\ production cross section in the fully 
-leptonic decay channel \ll\lnu~\cite{Aad:2012twa} at $\rts = 7\TeV$ and set 
-limits on anomalous charged TGC.
+leptonic decay channel \ll\lnu~\cite{Aad:2012twa} at $\rts = 7\TeV$ and $\rts = 8\TeV$ 
+and set limits on anomalous charged TGC.
 %Theoretical calculations
 % TBD
 % WZ->lllv
@@ -51,16 +52,21 @@ background, where the dominant Z + jets contributes with ($\pm3.8\%$).
 % Results at the end
 % xsec
 The fiducial cross section defined by $\pt^{\mu,e} > 15\GeV$ for the leptons from the \Zboson\ 
- decay, $\pt^{\mu,e} > 15\GeV$ for the lepton from the \Wboson, $|\eta^{\mu,e}|<2.5$, $\pt^\nu>25\GeV$,
+ decay, $\pt^{\mu,e} > 20\GeV$ for the lepton from the \Wboson, $|\eta^{\mu,e}|<2.5$, $\pt^\nu>25\GeV$,
  $|m_ll-m_Z| < 10\GeV$, $M_T^W>20GeV$ and $\Delta R> 0.3$ for the three possible $\ell\ell$ pairings. 
+The total cross section requires the mass of the \Zboson\ to be in the range of $66\GeV < |m_Z| < 116\GeV$
+to suppress the contribution from $\gamma^*$.
 The fiducial and total cross sections are compared to the SM expectation at NLO in Table~\ref{tab:sss-WZprod-xsec}.
+
 \begin{table}[htp]
 \begin{center}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|}
 Experiment & cross section & \rts & measured  & predicted  & reference  \\ \hline
-ATLAS & total & 7 GeV & {19$^{+1.4}_{-1.3}$ (stat.) $\pm{0.9}$ (syst.) $\pm$ 0.4 (lumi.) pb}  & {17.6  $\pm$ $^{+1.1}_{-1.0}$ pb} & \cite{Aad:2012twa} \\
+ATLAS & total & 7 GeV & {19$^{+1.4}_{-1.3}$ (stat.) $\pm{0.9}$ (syst.) $\pm$ 0.4 (lumi.) pb}  & {17.6 $^{+1.1}_{-1.0}$ pb} & \cite{Aad:2012twa} \\
+ATLAS & total & 8 GeV & {24.3$\pm 0.6$ (stat.) $\pm{0.6}$ (syst.) $\pm{0.4}$ (theo.) $\pm$ 0.5 (lumi.) pb}  & {21.0  $\pm$ 1.6 pb} & \cite{Aad:2016ett} \\
 ATLAS & fiducial & 7 GeV & {92 $\pm$ $^{+7}_{-6}$ (stat.) $\pm{4}$ (syst.) $\pm$ 2 (lumi.) fb}  & -- & \cite{Aad:2012twa} \\
+ATLAS & fiducial & 8 GeV & {92 $\pm$ $^{+7}_{-6}$ (stat.) $\pm{4}$ (syst.) $\pm$ 2 (lumi.) fb}  & -- & \cite{Aad:2016ett} \\
 \end{tabular}
 }
 \caption{Summary of measured fiducial and total $\WZ$ production cross sections from ATLAS 
@@ -98,24 +104,56 @@ Figure~\ref{fig:sss-WZprod-ptZ-det}, showing good agreement with the SM.
 % THIS MIGHT GO INTO THE SECTION ON TGC
 % aTGC
 Limits on the charged ATGC parameters \dkz, \lz\ and \gz\ are extracted from the transverse momentum distribution
-of the \Zboson, $\pt^Z$. The ATGC parameter 95\% CL limits are quoted using a form-factor of $\Lambda=2\TeV$ and without a form-factor, and summarized in Table~\ref{tab:sss-WZprod-ATGC}.
+of the \Zboson, $\pt^Z$~\cite{Aad:2012twa} or from the transverse mass of the $\Wboson\Zboson$ system~\cite{Aad:2016ett}. 
+The ATGC parameter 95\% CL limits using a form-factor of $\Lambda=2\TeV$ and without a form-factor are quoted 
+in Table~\ref{tab:sss-WZprod-ATGC} from the statistically more precise 8\TeV data set analysis~\cite{Aad:2016ett}.
+
+%\begin{table}\centering
+%\caption{Expected and observed 95\% CL on 
+%\dkz, \lz\ and \gz.}
+%\label{tab:sss-WZprod-ATGC}
+%\begin{tabular}{ccccc}
+%\hline
+%& $\rts$,  & Observed & Observed & Expected \\
+%& & $\Lambda=2$~TeV & no form factor & no form factor\\
+%\hline
+%$7\TeV$ & $\gz$ & $[-0.074, 0.133]$ & $[-0.057, 0.093]$ & $[-0.046, 0.080]$ \\
+%$7\TeV$ & $\dkz$ & $[-0.42, 0.69]$ & $[-0.37, 0.57]$ & $[-0.33, 0.47]$ \\
+%$7\TeV$ & $\lz$ & $[-0.064, 0.066]$ & $[-0.046, 0.047]$ & $[-0.041, 0.040]$ \\
+%\hline
+%\end{tabular}
+%\end{table}
+
+ \begin{tabular}{ccccc}
+ \caption{Expected and observed 95\% CL on \dkz, \lz\ and \gz for $\Lambda = 2\TeV$ and $\Lambda = \infty$.}\label{tab:sss-WZprod-ATGC}
+	 \hline
+	 \noalign{\smallskip}
+	 $\Lambda_{\mathrm{co}}$  & Coupling & Expected  & Observed \\
+	 	 \noalign{\smallskip}
+		% &  $\Lambda = 100 $ TeV &  $\Lambda = 100 $ TeV \\
+		% \noalign{\smallskip}
+
+	 \hline
+  	\noalign{\smallskip}                              %  Expected    & Observed
+	\multirow{3}{*}{$2$ TeV} & $\Delta g^Z_1$                   &    [$-0.023$ ; $0.055$]  & [ $-0.029$ ; $0.050$] \\
+	\noalign{\smallskip}
+       &  $\Delta \kappa^Z$                                                 &    [$-0.22$ ; $0.36$]  & [ $-0.23$ ; $0.46$] \\     
+        	 \noalign{\smallskip}
+       & $\lambda^Z$                                                        &    [$-0.026$ ; $0.026$]  & [ $-0.028$ ; $0.028$] \\
+         \noalign{\smallskip}
+         \hline
+	\noalign{\smallskip}
+         	\multirow{3}{*}{ $ \infty$} & $\Delta g^Z_1$                 &    [$-0.016$ ; $0.032$]  & [$-0.019$ ; $0.029$] \\
+	\noalign{\smallskip}
+       &  $\Delta \kappa^Z$                                 &    [$-0.17$ ; $0.25$]    & [$-0.19$ ; $0.30$] \\
+        	 \noalign{\smallskip}
+       & $\lambda^Z$                                        &    [$-0.016$ ; $0.016$]  & [$-0.016$ ; $0.016$] \\
+         \noalign{\smallskip}
+	 \hline
+	 \end{tabular}
 
 
-\begin{table}\centering
-\caption{Expected and observed 95\% CL on 
-\dkz, \lz\ and \gz.}
-\label{tab:sss-WZprod-ATGC}
-\begin{tabular}{cccc}
-\hline
-& Observed & Observed & Expected \\
-& $\Lambda=2$~TeV & no form factor & no form factor\\
-\hline
-$\gz$ & $[-0.074, 0.133]$ & $[-0.057, 0.093]$ & $[-0.046, 0.080]$ \\
-$\dkz$ & $[-0.42, 0.69]$ & $[-0.37, 0.57]$ & $[-0.33, 0.47]$ \\
-$\lz$ & $[-0.064, 0.066]$ & $[-0.046, 0.047]$ & $[-0.041, 0.040]$ \\
-\hline
-\end{tabular}
-\end{table}
+
 
  
 
