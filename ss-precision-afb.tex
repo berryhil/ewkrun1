@@ -50,13 +50,14 @@ intrinsically more sensitive to the undiluted value and have smaller
 theory uncertainties related to PDFs.  In proton--anti-proton
 collisions, valence quark/valence anti-quark annihilation
 predominates, and so dilution and its associated uncertainties are
-vastly reduced, making the Tevatron experiments a competitive
-alternative to the LHC for current data samples. Three LHC experiments
-have measured $\sin^2\theta^{eff}_{W}$: an initial exploratory
-measurement by CMS at 7 TeV~\cite{Chatrchyan:2011ya}, a measurement by
-ATLAS with all 7 TeV data~\cite{Aad:2015uau}, and a measurement by
-LHCb~\cite{Alves:2008zz,Aaij:2014jba} with all 7 and 8 TeV
-data~\cite{Aaij:2015lka}.
+vastly reduced, making the Tevatron experimental
+measurements~\cite{Aaltonen:2016nuy,Aaltonen:2014loa,Abazov:2014jti} a
+competitive alternative to the LHC for current data samples. Three LHC
+experiments have measured $\sin^2\theta^{eff}_{W}$: an initial
+exploratory measurement by CMS at 7 TeV~\cite{Chatrchyan:2011ya}, a
+measurement by ATLAS with all 7 TeV data~\cite{Aad:2015uau}, and a
+measurement by LHCb~\cite{Alves:2008zz,Aaij:2014jba} with all 7 and 8
+TeV data~\cite{Aaij:2015lka}.
 
 The ATLAS measurement was performed with three different samples: muon
 pairs with $P_T > 20$ GeV and $|\eta| < 2.4$; electron pairs with $E_T
@@ -90,23 +91,43 @@ parameter of interest to obtain the best precision.  Other leading
 systematic uncertainties are the lepton energy scale and MC template
 statistics, which will improve with larger data sets.
 
-The LHCb measruement employs a very similar technique.  They select
-muon pairs with $P_T > 20$ GeV, $60 < m_{\mu\mu} < 160$ GeV, and 2.0 <
-|\eta| < 4.5, with a signal mass resolution and purity similar to
+The LHCb measurement employs a very similar technique.  They select
+muon pairs with $P_T > 20$ GeV, $60 < m_{\mu\mu} < 160$ GeV, and $2.0 <
+|\eta| < 4.5$, with a signal mass resolution and purity similar to
 ATLAS but in a more forward, and therefore more sensitive, $Z$
 production region.  LHCb operational instantaneous luminosity is
 limited to the range $2-4\times
 10^{32}\textrm{cm}^{-2}\textrm{s}^{-1}$, however, so the sample size
-is limited to $1 \textrm{fb}^{-1}$at 7 TeV and $2 \textrm{fb}^{-1}$ at
-8 TeV.  The data are binned in mass and $A_{FB}(m)$ is computed for
+is limited to $1 \textrm{fb}^{-1}$ at 7 TeV and $2 \textrm{fb}^{-1}$
+at 8 TeV.  The data are binned in mass and $A_{FB}(m)$ is computed for
 their acceptance, and then subsequently unfolded to account for mass
 resolution effects. Figure~\ref{fig:ss-precision-afb-lhcb} shows the
 unfolded $A_{FB}$ distribution at 8 TeV compared with NLO predictions
 from \texttt{POWHEG-BOX}.  The unfolded $A_{FB}(m)$ distribution is
 used to extract $\sin^2\theta^{eff}_{W}$ via a $\chi^2$ fit
 of \texttt{POWHEG-BOX} templates of different mixing angle values to
-the data.  
+the data.  They measure $\sin^2\theta^{eff}_{W} = 0.23142 \pm
+0.00073 \textrm{(stat.)} \pm 0.00052 \textrm{(syst.)} \pm
+0.00056 \textrm{(th.)}$, where the last term denotes uncertainties
+from theoretical modelling ingredients, predominantly PDFs.  The PDF
+uncertainties are evaluated from QCD+QED NLO NNPDF
+2.3~\cite{Ball:2013hta,Ball:2012cx}, which, similar to the ATLAS PDF,
+includes 7 TeV electroweak production data from the LHC.  In contrast
+to the ATLAS result, the LHCb measurement is statistics limited, but
+has 30\% smaller theoretical uncertainties due to better understood
+PDF uncertainties in the more forward production region.
 
+A comparison of experimental measurements of
+$\sin^2\theta^{eff}_{W}$~\cite{Aaltonen:2016nuy} is shown in
+Figure~\ref{fig:ss-precision-summary-sin2thetaw}.  The best single
+measurements from the Tevatron are more than twice as precise as the
+best measurements from the LHC, and the separate $A^{0,b}_{FB}$ and
+$A_{l}$ results from $e^+e^-$ collisions are more than four times as
+precise.  There are reasonable prospects for the LHC experiments
+eventually surpassing these: ATLAS and CMS are expected to have
+superior statistical uncertainties by the end of Run 2, and all of the
+systematic and PDF uncertainties are expected to improve as well with
+larger electroweak data samples.
 
 %CMS Drell--Yan AFB 7 \TeV~\cite{Chatrchyan:2012dc}
 %CMS Drell--Yan AFB 8 \TeV (CMS-PAS-SMP-14-004, to be published)
@@ -120,21 +141,21 @@ the data.
     \label{fig:ss-precision-afb-atlas-cf}
 \end{figure}
 
-
-\begin{figure}[p]
-    \centering
-    \includegraphics[height=0.3\textheight]{figures/ss-precision-summary-sin2thetaw.pdf}
-    \caption{}
-    \label{fig:ss-precision-summary-sin2thetaw}
-\end{figure}
-
 \begin{figure}[p]
     \centering
     \includegraphics[height=0.3\textheight]{figures/ss-precision-afb-lhcb.pdf}
-    \caption{
+    \caption{The
+unfolded $A_{FB}$ distribution from LHCb 8 TeV data, as a function of dimuon mass, compared with NLO predictions from \texttt{POWHEG-BOX}.
     }
     \label{fig:ss-precision-afb-lhcb}
 \end{figure}
 
+\begin{figure}[p]
+    \centering
+    \includegraphics[height=0.3\textheight]{figures/ss-precision-summary-sin2thetaw.pdf}
+    \caption{Comparison of experimental measurements of
+$\sin^2\theta^{eff}_{W}$~\cite{Aaltonen:2016nuy}.}
+    \label{fig:ss-precision-summary-sin2thetaw}
+\end{figure}
 
 
