@@ -1,5 +1,5 @@
 \providecommand{\newblock}{}
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -17,6 +17,60 @@ Aad G {\em et~al.\/} 2012 {\em Physics Letters B\/} {\bf 716} 1 -- 29 ISSN
   0370-2693
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026931200857X}
 
+\bibitem{Weinberg:1978kz}
+Weinberg S 1979 {\em Physica\/} {\bf A96} 327--340
+
+\bibitem{Weinberg:1980wa}
+Weinberg S 1980 {\em Phys. Lett.\/} {\bf B91} 51--55
+
+\bibitem{Georgi:1994qn}
+Georgi H 1993 {\em Ann. Rev. Nucl. Part. Sci.\/} {\bf 43} 209--252
+
+\bibitem{Hagiwara:1993ck}
+Hagiwara K, Ishihara S, Szalapski R and Zeppenfeld D 1993 {\em Phys. Rev.\/}
+  {\bf D48} 2182--2203
+
+\bibitem{Degrande:2012wf}
+Degrande C, Greiner N, Kilian W, Mattelaer O, Mebane H, Stelzer T, Willenbrock
+  S and Zhang C 2013 {\em Annals Phys.\/} {\bf 335} 21--32 (\textit{Preprint}
+  \eprint{1205.4231})
+
+\bibitem{Eboli:2006wa}
+Eboli O~J~P, Gonzalez-Garcia M~C and Mizukoshi J~K 2006 {\em Phys. Rev.\/} {\bf
+  D74} 073005 (\textit{Preprint} \eprint{hep-ph/0606118})
+
+\bibitem{Degrande:2013kka}
+Degrande C 2014 {\em JHEP\/} {\bf 02} 101 (\textit{Preprint}
+  \eprint{1308.6323})
+
+\bibitem{Alboteanu:2008my}
+Alboteanu A, Kilian W and Reuter J 2008 {\em JHEP\/} {\bf 11} 010
+  (\textit{Preprint} \eprint{0806.4145})
+
+\bibitem{Chung:1995dx}
+Chung S~U, Brose J, Hackmann R, Klempt E, Spanier S and Strassburger C 1995
+  {\em Annalen Phys.\/} {\bf 4} 404--430
+
+\bibitem{Falkowski:2014tna}
+Falkowski A and Riva F 2015 {\em JHEP\/} {\bf 02} 039 (\textit{Preprint}
+  \eprint{1411.0669})
+
+\bibitem{Baak:2014ora}
+Baak M, CÃºth J, Haller J, Hoecker A, Kogler R, MÃ¶nig K, Schott M and Stelzer
+  J (Gfitter Group) 2014 {\em Eur. Phys. J.\/} {\bf C74} 3046
+  (\textit{Preprint} \eprint{1407.3792})
+
+\bibitem{Ciuchini:2013pca}
+Ciuchini M, Franco E, Mishima S and Silvestrini L 2013 {\em JHEP\/} {\bf 08}
+  106 (\textit{Preprint} \eprint{1306.4644})
+
+\bibitem{Badger:2016bpw}
+Andersen J~R {\em et~al.\/} 2016 {Les Houches 2015: Physics at TeV Colliders
+  Standard Model Working Group Report} {\em {9th Les Houches Workshop on
+  Physics at TeV Colliders (PhysTeV 2015) Les Houches, France, June 1-19,
+  2015}\/} (\textit{Preprint} \eprint{1605.04692})
+  \urlprefix\url{http://lss.fnal.gov/archive/2016/conf/fermilab-conf-16-175-ppd-t.pdf}
+
 \bibitem{Aad:2013iua}
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B725}
   223--242 (\textit{Preprint} \eprint{1305.4192})
@@ -24,6 +78,10 @@ Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B725}
 \bibitem{Melnikov:2006kv}
 Melnikov K and Petriello F 2006 {\em Phys. Rev.\/} {\bf D74} 114017
   (\textit{Preprint} \eprint{hep-ph/0609070})
+
+\bibitem{Gavin:2010az}
+Gavin R, Li Y, Petriello F and Quackenbush S 2011 {\em Comput. Phys. Commun.\/}
+  {\bf 182} 2388--2403 (\textit{Preprint} \eprint{1011.3540})
 
 \bibitem{Li:2012wna}
 Li Y and Petriello F 2012 {\em Phys. Rev.\/} {\bf D86} 094034
@@ -40,6 +98,11 @@ Aad G {\em et~al.\/} (ATLAS) 2014 {\em Eur. Phys. J.\/} {\bf C74} 3134
 \bibitem{Khachatryan:2014fba}
 Khachatryan V {\em et~al.\/} (CMS) 2015 {\em JHEP\/} {\bf 04} 025
   (\textit{Preprint} \eprint{1412.6302})
+
+\bibitem{ATLAS-CONF-2012-026}
+ 2012 {Measurement of the total ZZ production cross section in the four-lepton
+  channel with 4.7 fb-1 of ATLAS data} Tech. Rep. ATLAS-CONF-2012-026 CERN
+  Geneva \urlprefix\url{http://cds.cern.ch/record/1430735}
 
 \bibitem{Agashe:2014kda}
 Olive K~A {\em et~al.\/} (Particle Data Group) 2014 {\em Chin. Phys.\/} {\bf
@@ -69,6 +132,11 @@ Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015  (\textit{Preprint}
 Campbell J~M, Ellis R~K and Williams C 2011 {\em JHEP\/} {\bf 07} 018
   (\textit{Preprint} \eprint{1105.0020})
 
+\bibitem{Cascioli:2014yka}
+Cascioli F, Gehrmann T, Grazzini M, Kallweit S, Maierhöfer P, von Manteuffel A,
+  Pozzorini S, Rathlev D, Tancredi L and Weihs E 2014 {\em Phys. Lett.\/} {\bf
+  B735} 311--313 (\textit{Preprint} \eprint{1405.2219})
+
 \bibitem{Bierweiler:2013dja}
 Bierweiler A, Kasprzik T and Kühn J~H 2013 {\em JHEP\/} {\bf 12} 071
   (\textit{Preprint} \eprint{1305.5402})
@@ -76,6 +144,10 @@ Bierweiler A, Kasprzik T and Kühn J~H 2013 {\em JHEP\/} {\bf 12} 071
 \bibitem{Baglio:2013toa}
 Baglio J, Ninh L~D and Weber M~M 2013 {\em Phys. Rev.\/} {\bf D88} 113005
   (\textit{Preprint} \eprint{1307.4331})
+
+\bibitem{Baur:2000cx}
+Baur U and Rainwater D~L 2001 {\em Int. J. Mod. Phys.\/} {\bf A16S1A} 315--317
+  (\textit{Preprint} \eprint{hep-ph/0011016})
 
 \bibitem{aTGCplots}
 Herndon M 2015 Limits on anomalous triple and quartic gauge couplings
@@ -92,6 +164,10 @@ Aad G {\em et~al.\/} (ATLAS Collaboration) 2012 {\em Eur.Phys.J.\/} {\bf C72}
 
 \bibitem{Aad:2016ett}
 Aad G {\em et~al.\/} (ATLAS) 2016  (\textit{Preprint} \eprint{1603.02151})
+
+\bibitem{Frixione:2002ik}
+Frixione S and Webber B~R 2002 {\em JHEP\/} {\bf 06} 029 (\textit{Preprint}
+  \eprint{hep-ph/0204244})
 
 \bibitem{ATLAS:2012mec}
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Rev.\/} {\bf D87}
@@ -157,17 +233,22 @@ Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015 {\em JHEP\/} {\bf 1504}
 Khachatryan V {\em et~al.\/} (CMS) 2016  (\textit{Preprint}
   \eprint{1602.07152})
 
-\bibitem{Aad:2015uqa}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2015  (\textit{Preprint}
-  \eprint{1503.03243})
+\bibitem{PhysRevD.47.4889}
+Baur U and Berger E~L 1993 {\em Phys. Rev. D\/} {\bf 47}(11) 4889--4904
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.47.4889}
 
-\bibitem{Eboli:2006wa}
-Eboli O~J~P, Gonzalez-Garcia M~C and Mizukoshi J~K 2006 {\em Phys. Rev.\/} {\bf
-  D74} 073005 (\textit{Preprint} \eprint{hep-ph/0606118})
+\bibitem{Aad:2015uqa}
+Aad G {\em et~al.\/} (ATLAS) 2015 {\em Phys. Rev. Lett.\/} {\bf 115} 031802
+  (\textit{Preprint} \eprint{1503.03243})
 
 \bibitem{Chatrchyan:2014bza}
-Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2014  (\textit{Preprint}
-  \eprint{1404.4619})
+Chatrchyan S {\em et~al.\/} (CMS) 2014 {\em Phys. Rev.\/} {\bf D90} 032008
+  (\textit{Preprint} \eprint{1404.4619})
+
+\bibitem{Alwall:2014hca}
+Alwall J, Frederix R, Frixione S, Hirschi V, Maltoni F, Mattelaer O, Shao H~S,
+  Stelzer T, Torrielli P and Zaro M 2014 {\em JHEP\/} {\bf 07} 079
+  (\textit{Preprint} \eprint{1405.0301})
 
 \bibitem{Aad:2014dta}
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em JHEP\/} {\bf 1404} 031
@@ -189,6 +270,10 @@ Baranov S~P, Duenger O, Shooshtari H and Vermaseren J~A~M 1991 {LPAIR: A
   generator for lepton pair production} {\em {In *Hamburg 1991, Proceedings,
   Physics at HERA, vol. 3* 1478-1482. (see HIGH ENERGY PHYSICS INDEX 30 (1992)
   No. 12988)}\/}
+
+\bibitem{Alwall:2011uj}
+Alwall J, Herquet M, Maltoni F, Mattelaer O and Stelzer T 2011 {\em JHEP\/}
+  {\bf 06} 128 (\textit{Preprint} \eprint{1106.0522})
 
 \bibitem{Chatrchyan:2013foa}
 Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1307}
@@ -222,10 +307,6 @@ Melia T, Melnikov K, Rontsch R and Zanderighi G 2010 {\em JHEP\/} {\bf 12} 053
 Melia T, Nason P, Rontsch R and Zanderighi G 2011 {\em Eur. Phys. J.\/} {\bf
   C71} 1670 (\textit{Preprint} \eprint{1102.4846})
 
-\bibitem{Alboteanu:2008my}
-Alboteanu A, Kilian W and Reuter J 2008 {\em JHEP\/} {\bf 11} 010
-  (\textit{Preprint} \eprint{0806.4145})
-
 \bibitem{Kilian:2007gr}
 Kilian W, Ohl T and Reuter J 2011 {\em Eur. Phys. J.\/} {\bf C71} 1742
   (\textit{Preprint} \eprint{0708.4233})
@@ -253,16 +334,12 @@ Schael S {\em et~al.\/} (SLD Electroweak Group, DELPHI, ALEPH, SLD, SLD Heavy
   Flavour Group, OPAL, LEP Electroweak Working Group, L3) 2006 {\em Phys.
   Rept.\/} {\bf 427} 257--454 (\textit{Preprint} \eprint{hep-ex/0509008})
 
-\bibitem{Baak:2014ora}
-Baak M, CÃºth J, Haller J, Hoecker A, Kogler R, MÃ¶nig K, Schott M and Stelzer
-  J (Gfitter Group) 2014 {\em Eur. Phys. J.\/} {\bf C74} 3046
-  (\textit{Preprint} \eprint{1407.3792})
-
 \bibitem{Collins:1977iv}
 Collins J~C and Soper D~E 1977 {\em Phys. Rev.\/} {\bf D16} 2219
 
 \bibitem{Aaltonen:2016nuy}
-Aaltonen T~A {\em et~al.\/} (CDF) 2016  (\textit{Preprint} \eprint{1605.02719})
+Aaltonen T~A {\em et~al.\/} (CDF) 2016 {\em Phys. Rev.\/} {\bf D93} 112016
+  (\textit{Preprint} \eprint{1605.02719})
 
 \bibitem{Aaltonen:2014loa}
 Aaltonen T~A {\em et~al.\/} (CDF) 2014 {\em Phys. Rev.\/} {\bf D89} 072005
@@ -277,7 +354,7 @@ Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2011 {\em Phys.Rev.\/} {\bf
   D84} 112002 (\textit{Preprint} \eprint{1110.2682})
 
 \bibitem{Aad:2015uau}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2015  (\textit{Preprint}
+Aad G {\em et~al.\/} (ATLAS) 2015 {\em JHEP\/} {\bf 09} 049 (\textit{Preprint}
   \eprint{1503.03709})
 
 \bibitem{Alves:2008zz}
@@ -310,8 +387,8 @@ Aaltonen T~A {\em et~al.\/} (CDF Collaboration, D0 Collaboration) 2013 {\em
   Phys.Rev.\/} {\bf D88} 052018 (\textit{Preprint} \eprint{1307.7627})
 
 \bibitem{Chatrchyan:2013mza}
-Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013  (\textit{Preprint}
-  \eprint{1312.6283})
+Chatrchyan S {\em et~al.\/} (CMS) 2014 {\em Phys. Rev.\/} {\bf D90} 032004
+  (\textit{Preprint} \eprint{1312.6283})
 
 \bibitem{Khachatryan:2016pev}
 Khachatryan V {\em et~al.\/} (CMS) 2016  (\textit{Preprint}
@@ -356,10 +433,6 @@ Landry F, Brock R, Nadolsky P~M and Yuan C~P 2003 {\em Phys. Rev.\/} {\bf D67}
 \bibitem{Guzzi:2013aja}
 Guzzi M, Nadolsky P~M and Wang B 2014 {\em Phys. Rev.\/} {\bf D90} 014030
   (\textit{Preprint} \eprint{1309.1393})
-
-\bibitem{Gavin:2010az}
-Gavin R, Li Y, Petriello F and Quackenbush S 2011 {\em Comput. Phys. Commun.\/}
-  {\bf 182} 2388--2403 (\textit{Preprint} \eprint{1011.3540})
 
 \bibitem{Gavin:2012sy}
 Gavin R, Li Y, Petriello F and Quackenbush S 2013 {\em Comput. Phys. Commun.\/}
