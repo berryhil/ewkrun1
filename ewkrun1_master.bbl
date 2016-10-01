@@ -11,41 +11,9 @@
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B725}
   223--242 (\textit{Preprint} \eprint{1305.4192})
 
-\bibitem{Aad:2014qja}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em JHEP\/} {\bf 1406} 112
-  (\textit{Preprint} \eprint{1404.1212})
-
-\bibitem{Aad:2014xaa}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2014  (\textit{Preprint}
-  \eprint{1406.3660})
-
-\bibitem{Aad:2012wfa}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Lett.\/} {\bf B720}
-  32--51 (\textit{Preprint} \eprint{1211.6899})
-
-\bibitem{Chatrchyan:2013tia}
-Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1312}
-  030 (\textit{Preprint} \eprint{1310.7291})
-
 \bibitem{CMS:2014jea}
 Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015 {\em Eur.Phys.J.\/} {\bf
   C75} 147 (\textit{Preprint} \eprint{1412.1115})
-
-\bibitem{Khachatryan:2015paa}
-Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015  (\textit{Preprint}
-  \eprint{1504.03512})
-
-\bibitem{Khachatryan:2015oaa}
-Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015  (\textit{Preprint}
-  \eprint{1504.03511})
-
-\bibitem{Khachatryan:2014fba}
-Khachatryan V {\em et~al.\/} (CMS) 2015 {\em JHEP\/} {\bf 1504} 025
-  (\textit{Preprint} \eprint{1412.6302})
-
-\bibitem{Aad:2014wca}
-Aad G {\em et~al.\/} (ATLAS) 2014 {\em Eur.Phys.J.\/} {\bf C74} 3134
-  (\textit{Preprint} \eprint{1407.2410})
 
 \bibitem{Aad:2013izg}
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em Phys.Rev.\/} {\bf D87}
@@ -108,13 +76,38 @@ Aad G {\em et~al.\/} (ATLAS Collaboration) 2013 {\em JHEP\/} {\bf 1303} 128
 Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1301}
   063 (\textit{Preprint} \eprint{1211.4890})
 
-\bibitem{Khachatryan:2014dia}
-Khachatryan V {\em et~al.\/} (CMS Collaboration) 2014  (\textit{Preprint}
-  \eprint{1406.0113})
-
 \bibitem{Khachatryan:2015pba}
 Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015  (\textit{Preprint}
   \eprint{1503.05467})
+
+\bibitem{CMS:2014xja}
+Khachatryan V {\em et~al.\/} (CMS) 2015 {\em Phys. Lett.\/} {\bf B740} 250--272
+  (\textit{Preprint} \eprint{1406.0113})
+
+\bibitem{aTGCplots}
+Herndon M 2015 Limits on anomalous triple and quartic gauge couplings
+  \urlprefix\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsSMPaTGC}
+
+\bibitem{LEP-comb-2002}
+{LEP Electroweak Gauge-Couplings Group} 2002 A combination of preliminary
+  results on gauge boson couplings measured by the lep experiments
+  \urlprefix\url{http://lepewwg.web.cern.ch/lepww/tgc/summer02}
+
+\bibitem{Gounaris:1996rz}
+Gounaris G {\em et~al.\/} 1996 {Triple gauge boson couplings} {\em {AGS / RHIC
+  Users Annual Meeting Upton, New York, June 15-16, 1995}\/} (\textit{Preprint}
+  \eprint{hep-ph/9601233})
+  \urlprefix\url{http://alice.cern.ch/format/showfull?sysnb=0215385}
+
+\bibitem{HAGIWARA1992353}
+Hagiwara K, Ishihara S, Szalapski R and Zeppenfeld D 1992 {\em Physics Letters
+  B\/} {\bf 283} 353 -- 359 ISSN 0370-2693
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/037026939290031X}
+
+\bibitem{PhysRevD.48.2182}
+Hagiwara K, Ishihara S, Szalapski R and Zeppenfeld D 1993 {\em Phys. Rev. D\/}
+  {\bf 48}(5) 2182--2203
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.48.2182}
 
 \bibitem{Aad:2015uqa}
 Aad G {\em et~al.\/} (ATLAS Collaboration) 2015  (\textit{Preprint}
@@ -136,13 +129,13 @@ Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1310}
 Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015 {\em Eur.Phys.J.\/} {\bf
   C75} 66 (\textit{Preprint} \eprint{1410.3153})
 
-\bibitem{Aad:2014zda}
-Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em Phys.Rev.Lett.\/} {\bf
-  113} 141803 (\textit{Preprint} \eprint{1405.6241})
-
 \bibitem{Chatrchyan:2013foa}
 Chatrchyan S {\em et~al.\/} (CMS Collaboration) 2013 {\em JHEP\/} {\bf 1307}
   116 (\textit{Preprint} \eprint{1305.5596})
+
+\bibitem{Aad:2014zda}
+Aad G {\em et~al.\/} (ATLAS Collaboration) 2014 {\em Phys.Rev.Lett.\/} {\bf
+  113} 141803 (\textit{Preprint} \eprint{1405.6241})
 
 \bibitem{Khachatryan:2014sta}
 Khachatryan V {\em et~al.\/} (CMS Collaboration) 2015 {\em Phys.Rev.Lett.\/}
