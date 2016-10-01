@@ -30,7 +30,7 @@
 \def\Ztoll{\ensuremath{\Zzero \rightarrow \ll}}
 
 \def\W{\ensuremath{\Wpm}}
-\def\mcatnlo{MC@NLO\xspace}
+%\def\mcatnlo{\texttt{MCatNLO}\xspace}
 \usepackage{xspace}
 \def\WW{\ensuremath{\Wplus\Wminus}\xspace}
 \def\WZ{\ensuremath{\Wpm\Zzero}\xspace}
@@ -91,7 +91,7 @@
 \def\madgraph{{\sc MadGraph}\xspace}
 \def\pythia{{\sc Pythia}\xspace}
 \def\pythiaB{{\sc PythiaB}\xspace}
-\def\mcatnlo{MC@NLO\xspace}
+\def\mcatnlo{\texttt{MC@NLO}\xspace}
 \def\ggWW{ggWW\xspace}
 \def\alpgen{{\sc Alpgen}\xspace}
 \def\alpgenJimmy{{\sc Alpgen/Jimmy}\xspace}
@@ -618,10 +618,12 @@
 
 \def\cm{\ifmmode  {\mathrm{\ cm}}\else
                    \textrm{~cm}\fi}%
+\def\s{\ifmmode  {\mathrm{\ s}}\else
+                   \textrm{~s}\fi}%
 %
-\def\ifb{\mbox{fb$^{-1}$}}%  Inverse femtobarns.
-\def\ipb{\mbox{pb$^{-1}$}}%  Inverse picobarns.
-\def\inb{\mbox{nb$^{-1}$}}%  Inverse nanobarns.
+\def\ifb{\mbox{\ fb$^{-1}$}}%  Inverse femtobarns.
+\def\ipb{\mbox{\ pb$^{-1}$}}%  Inverse picobarns.
+\def\inb{\mbox{\ nb$^{-1}$}}%  Inverse nanobarns.
 %
 \def\mass#1{\ensuremath{m_{#1#1}}}%  "\mass{\mu}" produces "msub{mumu}".
 \def\twomass#1#2{\ensuremath{m_{#1#2}}}% 
